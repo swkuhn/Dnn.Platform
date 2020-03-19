@@ -26,7 +26,7 @@ namespace WatchersNET.CKEditor
     using DotNetNuke.Entities.Tabs;
 	using DotNetNuke.Services.Localization;
 
-    using Ventrian.NewsArticles;
+    //using Ventrian.NewsArticles;
 
     /// <summary>
     /// The News Article Links Selector Page
@@ -73,7 +73,7 @@ namespace WatchersNET.CKEditor
 
             ArticlesList.Items.Clear();
 
-            ArticleController articleController = new ArticleController();
+          //  ArticleController articleController = new ArticleController();
 
             int newsArticlesModuleId = 0;
             int newsArcticlesTabId = 0;
@@ -89,7 +89,7 @@ namespace WatchersNET.CKEditor
                 }
             }
 
-            var articleList = articleController.GetArticleList(newsArticlesModuleId, true);
+            /*var articleList = articleController.GetArticleList(newsArticlesModuleId, true);
 
             foreach (var article in articleList)
             {
@@ -99,7 +99,7 @@ namespace WatchersNET.CKEditor
                     string.Format("articletype=ArticleView&articleId={0}", article.ArticleID));
 
                 ArticlesList.Items.Add(new ListItem { Text = article.Title, Value = articleUrl });
-            }
+            }*/
         }
 
         /// <summary>

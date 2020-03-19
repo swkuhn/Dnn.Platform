@@ -1,1 +1,0 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="Trackback.aspx.vb" Inherits="Ventrian.NewsArticles.Tracking.Trackback" %>

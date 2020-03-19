@@ -1,7 +1,0 @@
-﻿DROP PROCEDURE {databaseOwner}{objectQualifier}DnnForge_NewsArticles_GetArticle
-GO
-
-CREATE PROCEDURE {databaseOwner}{objectQualifier}DnnForge_NewsArticles_GetArticle
-	@ArticleID int
-AS
-GO

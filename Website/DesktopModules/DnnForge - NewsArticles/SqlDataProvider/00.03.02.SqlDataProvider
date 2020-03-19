@@ -1,8 +1,0 @@
-﻿DROP PROCEDURE {databaseOwner}{objectQualifier}DnnForge_NewsArticles_GetArticleListByApproved
-GO
-
-CREATE PROCEDURE {databaseOwner}{objectQualifier}DnnForge_NewsArticles_GetArticleListByApproved
-	@ModuleID	int,
-	@IsApproved	bit
-AS
-GO
