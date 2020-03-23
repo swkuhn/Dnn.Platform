@@ -117,34 +117,94 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="InvalidPortal.Text" xml:space="preserve">
-    <value>Invalid portal.</value>
+  <data name="cmdExecute.Text" xml:space="preserve">
+    <value>Execute Merge</value>
   </data>
-  <data name="JobNotExist.Text" xml:space="preserve">
-    <value>No such job!</value>
+  <data name="cmdUpload.Text" xml:space="preserve">
+    <value>Upload XML Merge Script</value>
   </data>
-  <data name="JobStatus_Cancelled.Text" xml:space="preserve">
-    <value>Cancelled</value>
+  <data name="ERROR_Merge.Text" xml:space="preserve">
+    <value>The system encountered an error applying the specified configuration changes.  Please review the event log for error details.</value>
   </data>
-  <data name="JobStatus_DoneFailure.Text" xml:space="preserve">
-    <value>Failed</value>
+  <data name="plScriptNote.Text" xml:space="preserve">
+    <value>*NOTE:</value>
   </data>
-  <data name="JobStatus_DoneSuccess.Text" xml:space="preserve">
-    <value>Successful</value>
+  <data name="plScriptNoteDesc.Text" xml:space="preserve">
+    <value>once uploaded, you may edit the script in the field below before executing</value>
   </data>
-  <data name="JobStatus_InProgress.Text" xml:space="preserve">
-    <value>In Progress</value>
+  <data name="plScript.Text" xml:space="preserve">
+    <value>Merge Script</value>
   </data>
-  <data name="JobStatus_Submitted.Text" xml:space="preserve">
-    <value>Submitted</value>
+  <data name="cmdLoad.Text" xml:space="preserve">
+    <value>Load</value>
   </data>
-  <data name="JobType_Export.Text" xml:space="preserve">
-    <value>Site Export</value>
+  <data name="Configuration.Text" xml:space="preserve">
+    <value>Files</value>
   </data>
-  <data name="JobType_Import.Text" xml:space="preserve">
-    <value>Site Import</value>
+  <data name="Merge.Text" xml:space="preserve">
+    <value>Merge Scripts</value>
   </data>
-  <data name="NotPortalAdmin.Text" xml:space="preserve">
-    <value>User is not a portal administrator</value>
+  <data name="plConfigHelp.Text" xml:space="preserve">
+    <value>- Select a config file to edit -</value>
+  </data>
+  <data name="plConfig.Text" xml:space="preserve">
+    <value>Configuration File</value>
+  </data>
+  <data name="SaveWarning.Text" xml:space="preserve">
+    <value>Changing the web.config will cause your website to reload and may decrease site performance while the application is reloaded by the webserver.  Do you want to continue?</value>
+  </data>
+  <data name="ERROR_ConfigurationFormat.Text" xml:space="preserve">
+    <value>Your configuration file is not a valid XML file.  Please correct the formatting issue and try again. {0}</value>
+  </data>
+  <data name="LoadConfigWarning.Text" xml:space="preserve">
+    <value>Warning: You will lose your current changes if you load a new config file.</value>
+  </data>
+  <data name="MergeConfirm.Text" xml:space="preserve">
+    <value>Are you sure you want to merge these changes to this config file?</value>
+  </data>
+  <data name="SaveConfirm.Text" xml:space="preserve">
+    <value>Are you sure you want to save changes this config file?</value>
+  </data>
+  <data name="SelectConfig.Text" xml:space="preserve">
+    <value>Select a config file...</value>
+  </data>
+  <data name="Success.Text" xml:space="preserve">
+    <value>The changes were successfully made.</value>
+  </data>
+  <data name="cmdSave.Text" xml:space="preserve">
+    <value>Save Changes</value>
+  </data>
+  <data name="fileLabel.Help" xml:space="preserve">
+    <value>You can modify the file before making changes.</value>
+  </data>
+  <data name="fileLabel.Text" xml:space="preserve">
+    <value>File:</value>
+  </data>
+  <data name="scriptLabel.Help" xml:space="preserve">
+    <value>You can edit the merge script before executing it.</value>
+  </data>
+  <data name="scriptLabel.Text" xml:space="preserve">
+    <value>Script:</value>
+  </data>
+  <data name="ControlTitle_.Text" xml:space="preserve">
+    <value>Configuration Manager</value>
+  </data>
+  <data name="nav_ConfigConsole.Text" xml:space="preserve">
+    <value>Config Manager</value>
+  </data>
+  <data name="ConfigConsole.Text" xml:space="preserve">
+    <value>Configuration Manager</value>
+  </data>
+  <data name="SaveButton.Text" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="CancelButton.Text" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="ConfigFilesTab.Text" xml:space="preserve">
+    <value>Config Files</value>
+  </data>
+  <data name="MergeScriptsTab.Text" xml:space="preserve">
+    <value>Merge Scripts</value>
   </data>
 </root>

@@ -117,34 +117,88 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="InvalidPortal.Text" xml:space="preserve">
-    <value>Invalid portal.</value>
+  <data name="Connection.Text" xml:space="preserve">
+    <value>Connection:</value>
   </data>
-  <data name="JobNotExist.Text" xml:space="preserve">
-    <value>No such job!</value>
+  <data name="nav_SqlConsole.Text" xml:space="preserve">
+    <value>SQL Console</value>
   </data>
-  <data name="JobStatus_Cancelled.Text" xml:space="preserve">
-    <value>Cancelled</value>
+  <data name="Query.Text" xml:space="preserve">
+    <value>Query:</value>
   </data>
-  <data name="JobStatus_DoneFailure.Text" xml:space="preserve">
-    <value>Failed</value>
+  <data name="RunScript.Text" xml:space="preserve">
+    <value>Run Script</value>
   </data>
-  <data name="JobStatus_DoneSuccess.Text" xml:space="preserve">
-    <value>Successful</value>
+  <data name="SaveQuery.Text" xml:space="preserve">
+    <value>Save Query</value>
   </data>
-  <data name="JobStatus_InProgress.Text" xml:space="preserve">
-    <value>In Progress</value>
+  <data name="Title.Text" xml:space="preserve">
+    <value>Sql Console</value>
   </data>
-  <data name="JobStatus_Submitted.Text" xml:space="preserve">
-    <value>Submitted</value>
+  <data name="UploadFile.Text" xml:space="preserve">
+    <value>Upload a File</value>
   </data>
-  <data name="JobType_Export.Text" xml:space="preserve">
-    <value>Site Export</value>
+  <data name="AllEntries.Text" xml:space="preserve">
+    <value>All Entries</value>
   </data>
-  <data name="JobType_Import.Text" xml:space="preserve">
-    <value>Site Import</value>
+  <data name="Export.Text" xml:space="preserve">
+    <value>Export</value>
   </data>
-  <data name="NotPortalAdmin.Text" xml:space="preserve">
-    <value>User is not a portal administrator</value>
+  <data name="NewQuery.Text" xml:space="preserve">
+    <value>&lt;New Query&gt;</value>
+  </data>
+  <data name="PageInfo.Text" xml:space="preserve">
+    <value>Showing {0}-{1} of {2} items</value>
+  </data>
+  <data name="QueryTabTitle.Text" xml:space="preserve">
+    <value>Query {0}</value>
+  </data>
+  <data name="SaveQueryInfo.Text" xml:space="preserve">
+    <value>Enter a name for this query:</value>
+  </data>
+  <data name="Search.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="PageSize.Text" xml:space="preserve">
+    <value>{0} Entries</value>
+  </data>
+  <data name="ExportClipboard.Text" xml:space="preserve">
+    <value>Copy to Clipboard</value>
+  </data>
+  <data name="ExportClipboardFailed.Text" xml:space="preserve">
+    <value>Copy to Clipboard Failed!</value>
+  </data>
+  <data name="ExportClipboardSuccessful.Text" xml:space="preserve">
+    <value>Copied to Clipboard!</value>
+  </data>
+  <data name="ExportCSV.Text" xml:space="preserve">
+    <value>Export to CSV</value>
+  </data>
+  <data name="ExportExcel.Text" xml:space="preserve">
+    <value>Export to Excel</value>
+  </data>
+  <data name="ExportPDF.Text" xml:space="preserve">
+    <value>Export to PDF</value>
+  </data>
+  <data name="NoData.Text" xml:space="preserve">
+    <value>The query did not return any data.</value>
+  </data>
+  <data name="QueryFailed.Text" xml:space="preserve">
+    <value>The query failed!</value>
+  </data>
+  <data name="QuerySuccessful.Text" xml:space="preserve">
+    <value>The query completed successfully!</value>
+  </data>
+  <data name="EmptyName.Text" xml:space="preserve">
+    <value>Can't save query with empty name.</value>
+  </data>
+  <data name="DeleteConfirm.Text" xml:space="preserve">
+    <value>Please confirm you wish to delete this query.</value>
+  </data>
+  <data name="Cancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Delete.Text" xml:space="preserve">
+    <value>Delete</value>
   </data>
 </root>

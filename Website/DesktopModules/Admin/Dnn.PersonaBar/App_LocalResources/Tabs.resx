@@ -117,34 +117,19 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="InvalidPortal.Text" xml:space="preserve">
-    <value>Invalid portal.</value>
+  <data name="lblAdminOnly.Text" xml:space="preserve">
+    <value>Visible to Administrators only</value>
   </data>
-  <data name="JobNotExist.Text" xml:space="preserve">
-    <value>No such job!</value>
+  <data name="lblEveryone.Text" xml:space="preserve">
+    <value>Page is visible to everyone</value>
   </data>
-  <data name="JobStatus_Cancelled.Text" xml:space="preserve">
-    <value>Cancelled</value>
+  <data name="lblHome.Text" xml:space="preserve">
+    <value>Homepage of the site</value>
   </data>
-  <data name="JobStatus_DoneFailure.Text" xml:space="preserve">
-    <value>Failed</value>
+  <data name="lblRegistered.Text" xml:space="preserve">
+    <value>Visible to registered users</value>
   </data>
-  <data name="JobStatus_DoneSuccess.Text" xml:space="preserve">
-    <value>Successful</value>
-  </data>
-  <data name="JobStatus_InProgress.Text" xml:space="preserve">
-    <value>In Progress</value>
-  </data>
-  <data name="JobStatus_Submitted.Text" xml:space="preserve">
-    <value>Submitted</value>
-  </data>
-  <data name="JobType_Export.Text" xml:space="preserve">
-    <value>Site Export</value>
-  </data>
-  <data name="JobType_Import.Text" xml:space="preserve">
-    <value>Site Import</value>
-  </data>
-  <data name="NotPortalAdmin.Text" xml:space="preserve">
-    <value>User is not a portal administrator</value>
+  <data name="lblSecure.Text" xml:space="preserve">
+    <value>Visible to dedicated roles only</value>
   </data>
 </root>
